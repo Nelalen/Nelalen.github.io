@@ -53,7 +53,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #2298eff
 }
 
 .display-5 {
@@ -148,11 +148,13 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  text-align:center;
 }
 
 .subtitle-a {
   text-decoration: none;
   color: #4e4e4e;
+  text-align:center;
 }
 
 .line-mf {
@@ -277,15 +279,15 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
+  background: #298eff
+  border: 0px solid #298eff
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
+  background-color: #298eff
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -316,6 +318,72 @@ a:hover {
   bottom: 50px;
   cursor: pointer;
   border-radius: 50%;
+}
+
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume {
+  margin-bottom: 20px;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #298eff;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #2a2a2c;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
 }
 
 /*--------------------------------------------------------------
@@ -427,7 +495,7 @@ a:hover {
   text-decoration: none;
   background-color: #2a2929;
   color: #fff;
-  border-color: #cde1f8;
+  border-color: #298eff
 }
 
 .button-big {
@@ -453,6 +521,7 @@ a:hover {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 #header .logo {
@@ -809,11 +878,11 @@ a:hover {
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
+  color: #298eff
 }
 
 .hero-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
+  color: #298eff
 }
 
 .hero-single .breadcrumb a {
@@ -826,6 +895,7 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  margin-top:4rem;
 }
 
 .about-mf .about-img {
@@ -848,7 +918,7 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
+  background-color: #298eff
   margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
   height: 0.7rem;
@@ -872,9 +942,9 @@ a:hover {
 
 .skills-box:hover .ico-circle {
   transition: all 500ms ease;
-  color: #fff;
-  background-color: #434343;
-  box-shadow: 0 0 0 10px #cde1f8;
+  color: #298eff;
+  background-color: white;
+  box-shadow: 0 0 0 10px #298eff
 }
 
 .skills-box .skills-ico {
@@ -1074,9 +1144,19 @@ a:hover {
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
   display: block;
   font-size: 1.4rem;
+}
+
+.author-subtitle {
+  margin: 1rem 0;
+  margin-bottom:1rem;
+  font-size: 1.2rem;
+}
+
+.lead {
+  margin-top:10px;
 }
 
 .testimonial-box .comit {
